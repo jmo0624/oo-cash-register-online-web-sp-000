@@ -29,4 +29,5 @@ class CashRegister
       return "After the discount, the total comes to $#{total}."
     else
       return "There is no discount to apply."
+    end
     
