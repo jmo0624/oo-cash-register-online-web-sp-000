@@ -18,6 +18,6 @@ class CashRegister
         counter += 1
       end
     else
-      item
+      @items << item
       
     
