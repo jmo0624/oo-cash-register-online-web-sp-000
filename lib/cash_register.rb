@@ -26,5 +26,5 @@ class CashRegister
     if @discount > 0
       @to_take_off = (price * discount)/100
       @total -= @to_take_off
-      
+      return ""
     
